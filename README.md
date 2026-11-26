@@ -28,16 +28,7 @@ Anything the owner still has to provide is shown on the site in a **yellow dashe
 grep -n 'class="ph"' *.html
 ```
 
-- Enrolment number and year (Bar Council of Bihar) — `about.html`
-- Education (LL.B. university and year) — `about.html`
-- Bar association membership — `about.html`
-- A short profile paragraph in the advocate's own words — `about.html`
-- Whether he appears at / coordinates with Patna High Court — `about.html`
 - Professional photograph — save as `assets/img/advocate.jpg` and replace the placeholder in `about.html` with `<img src="/assets/img/advocate.jpg" alt="Advocate Rupesh Kumar Thakur">`
-- Email address — `about.html`, `contact.html`, `privacy.html`
-- Office / chamber hours — `contact.html`
-
-Also please confirm: the phone number +91 94708 62425 (from the Google listing) is on WhatsApp, and the languages (Hindi, Bhojpuri, English).
 
 ## Bar Council of India compliance
 
