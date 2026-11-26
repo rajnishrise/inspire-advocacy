@@ -333,3 +333,27 @@ figure { margin: 0; }
 .hindi { font-family: "Noto Sans Devanagari", var(--sans); }
 @media (max-width: 900px) { .stat-strip { grid-template-columns: 1fr 1fr; } .stat-strip div:nth-child(3) { border-left: 0; } .stat-strip div:nth-child(n+3) { border-top: 1px solid rgba(255,255,255,.12); } }
 @media (max-width: 640px) { .code-table th, .code-table td { padding: 10px; font-size: .88rem; } }
+
+/* Mobile comfort: larger tap targets and minimum text size */
+.brand-sub { font-size: .75rem; }
+.photo figcaption, .photo-credit { font-size: .75rem; }
+@media (max-width: 1024px) {
+  .topbar a { display: inline-block; padding: 8px 0; }
+  .topbar .container { padding-top: 2px; padding-bottom: 2px; align-items: center; }
+  .site-footer li { margin-bottom: .2em; }
+  .site-footer li a { display: inline-block; padding: 6px 0; }
+}
+@media (max-width: 380px) {
+  .brand-mark { width: 36px; height: 36px; }
+  .brand-name { font-size: 1.2rem; }
+  .brand-sub { letter-spacing: .1em; }
+  .hero h1 { font-size: 2rem; }
+  .btn-row .btn { width: 100%; }
+}
+@media (max-width: 640px) {
+  .topbar .container > div:first-child { display: none; }
+  .topbar .container { justify-content: center; }
+}
+@media (max-width: 380px) {
+  .brand-sub { font-size: .64rem; letter-spacing: .06em; white-space: nowrap; }
+}
