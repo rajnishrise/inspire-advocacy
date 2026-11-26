@@ -28,7 +28,7 @@ Anything the owner still has to provide is shown on the site in a **yellow dashe
 grep -n 'class="ph"' *.html
 ```
 
-- Professional photograph — save as `assets/img/advocate.jpg` and replace the placeholder in `about.html` with `<img src="/assets/img/advocate.jpg" alt="Advocate Rupesh Kumar Thakur">`
+Nothing is outstanding at the moment.
 
 ## Bar Council of India compliance
 
